@@ -1,0 +1,22 @@
+# Normalize text files to LF
+* text=auto eol=lf
+
+# Treat Jupyter notebooks as text for better diffs
+*.ipynb text
+
+# Python files
+*.py text
+
+# Markdown and documentation
+*.md text
+*.txt text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Ignore generated cache diffs
+__pycache__/* linguist-generated=true
